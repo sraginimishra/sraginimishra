@@ -1,0 +1,41 @@
+
+--
+-- Database: `countrylist`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_country`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_country` (
+  `country_id` varchar(20) NOT NULL,
+  `country_name` varchar(45) NOT NULL,
+  `capital` varchar(45) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_country`
+--
+
+INSERT INTO `tbl_country` (`country_id`, `country_name`, `capital`) VALUES
+('AD', 'Andorra	Andorra', 'la Vella'),
+('AE', 'United Arab Emirates', 'Abu Dhabi'),
+('AF', 'Afghanistan', 'Kabul'),
+('AG', 'Antigua and Barbuda', 'St. John s'),
+('AI', 'Anguilla', 'The Valley'),
+('AL', 'Albania', 'Tirana'),
+('AM', 'Armenia', 'Yerevan'),
+('AO', 'Angola', 'Luanda'),
+('AQ,', 'Antarctica', ''),
+('AR', 'Argentina	,''Buenos', 'Aires'),
+('AS', 'American Samoa	,''Pago', 'Pago'),
+('AT', 'Austria', 'Vienna'),
+('AU', 'Australia', 'Canberra'),
+('AW', 'Aruba', 'Oranjestad'),
+('AX', 'Aland Islands', 'Mariehamn'),
+('AZ', 'Azerbaijan', 'Baku'),
+('BA', 'Bosnia and Herzegovina', 'Sarajevo'),
+('BB', 'Barbados', 'Bridgetown'),
+('BD', 'Bangladesh', 'Dhaka');
